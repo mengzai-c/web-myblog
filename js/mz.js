@@ -3098,18 +3098,58 @@ let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
 // unsplash随机 https://source.unsplash.com/random/1920x1080/daily (weekly)
 let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 
+// 背景随机和设备检测
+function getRandomPic() {
+  try {
+    const picType = getPicType();
+    const num = getRandomNumber();
+    const picpath = `https://jihulab.com/mengzai-c/myblog/-/blob/master/${picType}/${num}.webp`;
+    
+    return picpath;
+  } catch (error) {
+    console.error(error);
+    alert('Error occurred.');
+  }
+}
+
+function getPicType() {
+  return isMobileDevice() ? MOBILE_PIC_TYPE : DESKTOP_PIC_TYPE;
+}
+
+function getRandomNumber() {
+  const upperLimit = isMobileDevice() ? MOBILE_RANDOM_UPPER_LIMIT : DESKTOP_RANDOM_UPPER_LIMIT;
+  return Math.floor(Math.random() * upperLimit) + 1;
+}
+
+function isMobileDevice() {
+  const userAgent = navigator.userAgent;
+  return /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/.test(userAgent);
+}
+
+// Constants
+const MOBILE_PIC_TYPE = 'p1';
+const DESKTOP_PIC_TYPE = 'p2';
+const MOBILE_RANDOM_UPPER_LIMIT = 3;
+const DESKTOP_RANDOM_UPPER_LIMIT = 13;
+
+// Example usage:
+const randomPic = getRandomPic();
+console.log(randomPic); // 输出随机生成的图片连接
 
 // 更换背景(自己的代码)
-if (localStorage.getItem("blogbg") != undefined) {
-  setBg(localStorage.getItem("blogbg"));
+const localStorageBg = localStorage.getItem("blogbg");
+if (localStorageBg) {
+  setBg(localStorageBg);
 } else {
-  document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://api-p.dreamzai.top/);
-    --darkmode-bg:url(https://api-p.dreamzai.top/);
-    --mobileday-bg: url(https://api-p.dreamzai.top/);
-    --mobilenight-bg: url(https://api-p.dreamzai.top/);
+  const defineBg = document.getElementById("defineBg");
+  defineBg.innerText = `:root{
+    --default-bg: url(${randomPic});
+    --darkmode-bg:url(${randomPic});
+    --mobileday-bg: url(${randomPic});
+    --mobilenight-bg: url(${randomPic});
   }`;
 }
+
 // 切换背景主函数
 function changeBg(s) {
   // 自定义颜色框
