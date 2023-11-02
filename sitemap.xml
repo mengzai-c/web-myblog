@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-11-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.dreamzai.top/site/time/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
@@ -38,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/social/link/index.html</loc>
+    <loc>https://blog.dreamzai.top/personal/about/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -47,7 +38,16 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/personal/about/index.html</loc>
+    <loc>https://blog.dreamzai.top/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamzai.top/social/link/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/box/nav/index.html</loc>
+    <loc>https://blog.dreamzai.top/life/games/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/life/games/index.html</loc>
+    <loc>https://blog.dreamzai.top/box/nav/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
