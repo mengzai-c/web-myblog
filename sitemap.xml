@@ -29,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/social/fcircle/index.html</loc>
+    <loc>https://blog.dreamzai.top/site/time/index.html</loc>
+    
+    <lastmod>2023-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamzai.top/site/census/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -47,25 +56,16 @@
   </url>
   
   <url>
+    <loc>https://blog.dreamzai.top/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.dreamzai.top/social/link/index.html</loc>
-    
-    <lastmod>2023-11-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.dreamzai.top/site/time/index.html</loc>
-    
-    <lastmod>2023-11-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.dreamzai.top/site/census/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://blog.dreamzai.top/box/animation/index.html</loc>
+    <loc>https://blog.dreamzai.top/box/nav/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -102,15 +102,6 @@
   
   <url>
     <loc>https://blog.dreamzai.top/box/gallery/index.html</loc>
-    
-    <lastmod>2023-11-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.dreamzai.top/box/nav/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
@@ -129,6 +120,15 @@
   
   <url>
     <loc>https://blog.dreamzai.top/life/games/index.html</loc>
+    
+    <lastmod>2023-11-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.dreamzai.top/box/animation/index.html</loc>
     
     <lastmod>2023-11-01</lastmod>
     
