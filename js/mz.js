@@ -3103,7 +3103,7 @@ function getRandomPic() {
   try {
     const picType = getPicType();
     const num = getRandomNumber();
-    const picpath = `https://jihulab.com/mengzai-c/myblog/-/blob/master/${picType}/${num}.webp`;
+    const picpath = `https://blog.dreamzai.top/${picType}/${num}.webp`;
     
     return picpath;
   } catch (error) {
