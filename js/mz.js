@@ -3682,14 +3682,4 @@ function stopp(e) {
         startSakura();
     }
 }
-window.addEventListener("DOMContentLoaded",
-startSakura);
-
-// pjax防崩
-pjax.site_handleResponse = pjax.handleResponse;
-pjax.handleResponse = function(responseText, request, href, options){
-  Object.defineProperty(request,'responseURL',{
-    value: href
-  });
-  pjax.site_handleResponse(responseText,request,href,options);
-}
+window.addEventListener("DOMContentLoaded",startSakura);
